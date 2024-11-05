@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "health-care-server",
   "version": "1.0.0",
@@ -6,6 +7,19 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "seed": "ts-node-dev --respawn --transpile-only prisma/seed.ts"
+=======
+-- Active: 1729394780664@@127.0.0.1@5432@heathcare_db
+{
+  "name": "heath-care-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "seed": "ts-node-dev --respawn --transpile-only prisma/seed.ts",
+    "migrate": "npx prisma migrate dev",
+    "studio": "npx prisma studio",
+    "validate": "npx prisma validate"
+>>>>>>> e220c8e (Initial commit)
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",

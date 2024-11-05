@@ -1,4 +1,5 @@
 Arguments: 
+<<<<<<< HEAD
   /usr/local/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js add @types/sslcommerz-lts -D
 
 PATH: 
@@ -36,6 +37,42 @@ npm manifest:
     "license": "MIT",
     "scripts": {
       "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+=======
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Microsoft\jdk-17.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Yarn\bin\;C:\Users\Arafat\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Arafat\AppData\Local\Android\Sdk\platform-tools;C:\Users\Arafat\AppData\Local\pnpm;C:\Users\Arafat\.console-ninja\.bin;C:\Users\Arafat\AppData\Local\Microsoft\WindowsApps;C:\Users\Arafat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Arafat\AppData\Local\Yarn\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\Arafat\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Arafat\AppData\Local\Programs\mongosh\;C:\Program Files\MongoDB\Server\7.0\bin;C:\Users\Arafat\AppData\Local\Programs\oh-my-posh\bin;C:\Users\Arafat\AppData\Local\Microsoft\WindowsApps;C:\Users\Arafat\AppData\Roaming\npm;C:\Users\Arafat\AppData\Local\Android\Sdk\platform-tools;
+
+Yarn version: 
+  1.23.0-20200615.1913
+
+Node version: 
+  21.7.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\Next Level Courses\Next Level Web Development\MISSION 7\Health Care Server\package.json: No number after minus sign in JSON at position 1 (line 1 column 2)
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  -- Active: 1729394780664@@127.0.0.1@5432@heathcare_db
+  {
+    "name": "heath-care-server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+      "seed": "ts-node-dev --respawn --transpile-only prisma/seed.ts",
+      "migrate": "npx prisma migrate dev",
+      "studio": "npx prisma studio",
+      "validate": "npx prisma validate"
+>>>>>>> e220c8e (Initial commit)
     },
     "devDependencies": {
       "@types/bcrypt": "^5.0.2",
@@ -45,6 +82,10 @@ npm manifest:
       "@types/luxon": "^3.4.2",
       "@types/multer": "^1.4.11",
       "@types/node": "^20.11.26",
+<<<<<<< HEAD
+=======
+      "@types/node-cron": "^3.0.11",
+>>>>>>> e220c8e (Initial commit)
       "@types/nodemailer": "^6.4.14",
       "@types/uuid": "^9.0.8",
       "prisma": "^5.11.0",
@@ -55,6 +96,10 @@ npm manifest:
     "dependencies": {
       "@prisma/client": "5.11.0",
       "@types/cookie-parser": "^1.4.7",
+<<<<<<< HEAD
+=======
+      "axios": "^1.6.8",
+>>>>>>> e220c8e (Initial commit)
       "bcrypt": "^5.1.1",
       "cloudinary": "^2.0.3",
       "cookie-parser": "^1.4.6",
@@ -66,6 +111,10 @@ npm manifest:
       "jsonwebtoken": "^9.0.2",
       "luxon": "^3.4.4",
       "multer": "^1.4.5-lts.1",
+<<<<<<< HEAD
+=======
+      "node-cron": "^3.0.3",
+>>>>>>> e220c8e (Initial commit)
       "nodemailer": "^6.9.12",
       "sslcommerz-lts": "^1.1.0",
       "uuid": "^9.0.1",
@@ -272,6 +321,14 @@ Lockfile:
     dependencies:
       "@types/express" "*"
   
+<<<<<<< HEAD
+=======
+  "@types/node-cron@^3.0.11":
+    version "3.0.11"
+    resolved "https://registry.yarnpkg.com/@types/node-cron/-/node-cron-3.0.11.tgz#70b7131f65038ae63cfe841354c8aba363632344"
+    integrity sha512-0ikrnug3/IyneSHqCBeslAhlK2aBfYek1fGo4bP4QnZPmiqSGRK+Oy7ZMisLWkesffJvQ1cqAcBnJC+8+nxIAg==
+  
+>>>>>>> e220c8e (Initial commit)
   "@types/node@*", "@types/node@^20.11.26":
     version "20.11.26"
     resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.26.tgz#3fbda536e51d5c79281e1d9657dcb0131baabd2d"
@@ -404,6 +461,18 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
     integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
   
+<<<<<<< HEAD
+=======
+  axios@^1.6.8:
+    version "1.6.8"
+    resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.8.tgz#66d294951f5d988a00e87a0ffb955316a619ea66"
+    integrity sha512-v/ZHtJDU39mDpyBoFVkETcd/uNdxrWRrg3bKpOKzXFA6Bvqopts6ALSMU3y6ijYxbw2B+wPrIv46egTzJXCLGQ==
+    dependencies:
+      follow-redirects "^1.15.6"
+      form-data "^4.0.0"
+      proxy-from-env "^1.1.0"
+  
+>>>>>>> e220c8e (Initial commit)
   balanced-match@^1.0.0:
     version "1.0.2"
     resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
@@ -521,7 +590,11 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/color-support/-/color-support-1.1.3.tgz#93834379a1cc9a0c61f82f52f0d04322251bd5a2"
     integrity sha512-qiBjkpbMLO/HL68y+lh4q0/O1MZFj2RX6X/KmMa3+gJD3z+WwI1ZzDHysvqHGS3mP6mznPckpXmw1nI9cJjyRg==
   
+<<<<<<< HEAD
   combined-stream@^1.0.6:
+=======
+  combined-stream@^1.0.6, combined-stream@^1.0.8:
+>>>>>>> e220c8e (Initial commit)
     version "1.0.8"
     resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
     integrity sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==
@@ -772,6 +845,14 @@ Lockfile:
       statuses "2.0.1"
       unpipe "~1.0.0"
   
+<<<<<<< HEAD
+=======
+  follow-redirects@^1.15.6:
+    version "1.15.6"
+    resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.6.tgz#7f815c0cda4249c74ff09e95ef97c23b5fd0399b"
+    integrity sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==
+  
+>>>>>>> e220c8e (Initial commit)
   form-data@2.5.0:
     version "2.5.0"
     resolved "https://registry.yarnpkg.com/form-data/-/form-data-2.5.0.tgz#094ec359dc4b55e7d62e0db4acd76e89fe874d37"
@@ -781,6 +862,18 @@ Lockfile:
       combined-stream "^1.0.6"
       mime-types "^2.1.12"
   
+<<<<<<< HEAD
+=======
+  form-data@^4.0.0:
+    version "4.0.0"
+    resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.0.tgz#93919daeaf361ee529584b9b31664dc12c9fa452"
+    integrity sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==
+    dependencies:
+      asynckit "^0.4.0"
+      combined-stream "^1.0.8"
+      mime-types "^2.1.12"
+  
+>>>>>>> e220c8e (Initial commit)
   forwarded@0.2.0:
     version "0.2.0"
     resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.2.0.tgz#2269936428aad4c15c7ebe9779a84bf0b2a81811"
@@ -1195,6 +1288,16 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-5.1.0.tgz#49da1ca055e109a23d537e9de43c09cca21eb762"
     integrity sha512-eh0GgfEkpnoWDq+VY8OyvYhFEzBk6jIYbRKdIlyTiAXIVJ8PyBaKb0rp7oDtoddbdoHWhq8wwr+XZ81F1rpNdA==
   
+<<<<<<< HEAD
+=======
+  node-cron@^3.0.3:
+    version "3.0.3"
+    resolved "https://registry.yarnpkg.com/node-cron/-/node-cron-3.0.3.tgz#c4bc7173dd96d96c50bdb51122c64415458caff2"
+    integrity sha512-dOal67//nohNgYWb+nWmg5dkFdIwDm8EpeGYMekPMrngV3637lqnX0lbUcCtgibHTz6SEz7DAIjKvKDFYCnO1A==
+    dependencies:
+      uuid "8.3.2"
+  
+>>>>>>> e220c8e (Initial commit)
   node-fetch@2.6.1:
     version "2.6.1"
     resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
@@ -1303,6 +1406,14 @@ Lockfile:
       forwarded "0.2.0"
       ipaddr.js "1.9.1"
   
+<<<<<<< HEAD
+=======
+  proxy-from-env@^1.1.0:
+    version "1.1.0"
+    resolved "https://registry.yarnpkg.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz#e102f16ca355424865755d2c9e8ea4f24d58c3e2"
+    integrity sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==
+  
+>>>>>>> e220c8e (Initial commit)
   q@^1.5.1:
     version "1.5.1"
     resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
@@ -1668,6 +1779,14 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
     integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
   
+<<<<<<< HEAD
+=======
+  uuid@8.3.2:
+    version "8.3.2"
+    resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+    integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+  
+>>>>>>> e220c8e (Initial commit)
   uuid@^9.0.1:
     version "9.0.1"
     resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
