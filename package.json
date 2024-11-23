@@ -1,14 +1,13 @@
-
 {
-  "name": "heath-care-server",
+  "name": "PH-HealthCare-Server",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": "https://github.com/Apollo-Level2-Web-Dev/PH-HealthCare-Server.git",
+  "author": "fahimahammed <fahimahammed.cse@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "seed": "ts-node-dev --respawn --transpile-only prisma/seed.ts",
-    "migrate": "npx prisma migrate dev",
-    "studio": "npx prisma studio",
-    "validate": "npx prisma validate"
+    "seed": "ts-node-dev --respawn --transpile-only prisma/seed.ts"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
